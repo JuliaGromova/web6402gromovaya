@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Прайс на услуги</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Наши услуги и цены</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+				<li><a href="team.html">Сотрудники</a></li>
+                <li><a href="price.html" class="active">Прайс</a></li>
+                <li><a href="about.html">О нас</a></li>
+            </ul>
+        </nav>
+		<div class="paw-trail">
+			<span class="paw paw1">🐾</span>
+			<span class="paw paw2">🐾</span>
+			<span class="paw paw3">🐾</span>
+			<span class="paw paw4">🐾</span>
+			<span class="paw paw5">🐾</span>
+		</div>
+    </header>
+    <section>
+	<div id="table-for-update">
+		<button id="update-prices-town1" class="update-btn">Цены для Город1</button>
+		<button id="update-prices-town2" class="update-btn">Цены для Город2</button>
+		<div id="prices-container" class="prices">
+			<div class="header">Тип услуги</div>
+			<div class="header">Маленькие животные</div>
+			<div class="header">Средние животные</div>
+			<div class="header">Большие животные</div>
+
+			<div class="item">Уход в квартире клиента</div>
+			<div class="item">500₽</div>
+			<div class="item">700₽</div>
+			<div class="item">1000₽</div>
+
+			<div class="item">Уход на нашей территории</div>
+			<div class="item">700₽</div>
+			<div class="item">900₽</div>
+			<div class="item">1200₽</div>
+		</div>
+		</div>
+		
+		<h2>Скидки за длительный уход</h2>
+		<div class="discount">
+			<div class="header">Количество дней</div>
+			<div class="header">Скидка</div>
+
+			<div class="item">1-5 дней</div>
+			<div class="item">Без скидки</div>
+
+			<div class="item">6-10 дней</div>
+			<div class="item">10%</div>
+			
+			<div class="item">11+ дней</div>
+			<div class="item">15%</div>
+		</div>
+    </section>
+	
+	<script src="price_script.js"></script>
+</body>
+</html>
